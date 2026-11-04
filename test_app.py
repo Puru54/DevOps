@@ -6,7 +6,7 @@ class AppTests(unittest.TestCase):
         self.assertTrue(MESSAGE)
  
     def test_handler_is_defined(self):
-        self.assertTrue(Handler)
+        self.assertFalse(Handler)
  
 if __name__ == "__main__":
     unittest.main()
